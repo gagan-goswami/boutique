@@ -455,6 +455,10 @@ strong {
   letter-spacing: 2.9px;
 }
 
+.category-shop .category-item {
+  margin-bottom: 25px;
+}
+
 .category-shop .category-content {
   text-align: center;
   margin-top: 10px;
@@ -486,6 +490,10 @@ strong {
   font-weight: 300;
   line-height: 33px;
   letter-spacing: 2.9px;
+}
+
+.menswear-section .mens-item {
+  margin-bottom: 25px;
 }
 
 .menswear-section .category-content {
