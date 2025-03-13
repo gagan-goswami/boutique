@@ -464,7 +464,7 @@ strong {
   margin-top: 10px;
 }
 
-.category-shop .category-content a {
+.category-shop .category-content span {
   text-decoration: none;
   color: var(--dark);
   font-size: 16px;

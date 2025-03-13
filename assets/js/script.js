@@ -42,25 +42,6 @@ function menuSticky() {
 }
 menuSticky();
 
-AOS.init();
-
-// portfolio tab filters //
-
-$(".owl-filter-bar").on("click", ".item", function (e) {
-  e.preventDefault();
-  var $item = $(this);
-  var filter = $item.data("owl-filter");
-  $(".owl-filter-bar .item").removeClass("active");
-  $item.addClass("active");
-  if (filter === "*") {
-    $(".filter-item").show();
-  } else {
-    $(".filter-item").hide();
-    $(filter).show();
-  }
-  owl.trigger("refresh.owl.carousel");
-});
-
 // counter //
 
 $(document).ready(function () {
@@ -167,154 +148,12 @@ $(".slider-3").owlCarousel({
 
 // cursor
 
-// packaging
-
-$(".slider-4").owlCarousel({
-  slideBy: 1,
-  autoplay: true,
-  autoplayHoverPause: true,
-  loop: true,
-  animateOut: "fadeOut",
-  autoplaySpeed: 800,
-  smartSpeed: 500,
-  margin: 10,
-  responsiveClass: true,
-  responsive: {
-    0: {
-      items: 2,
-    },
-    767: {
-      items: 2,
-    },
-    991: {
-      items: 4,
-    },
-  },
-});
-
-// company profile
-
-$(".slider-5").owlCarousel({
-  slideBy: 1,
-  autoplay: true,
-  autoplayHoverPause: true,
-  loop: true,
-  animateOut: "fadeOut",
-  autoplaySpeed: 800,
-  smartSpeed: 500,
-  margin: 10,
-  dot: false,
-  nav: false,
-  responsiveClass: true,
-  responsive: {
-    0: {
-      items: 2,
-    },
-    767: {
-      items: 2,
-    },
-    991: {
-      items: 4,
-    },
-  },
-});
-
-// company profile
-$(document).ready(function () {
-  // Initialize Owl Carousel
-  $(".slider-6").owlCarousel({
-    slideBy: 1,
-    autoplay: true,
-    autoplayHoverPause: true,
-    loop: true,
-    dots: false,
-    nav: false,
-    animateOut: "fadeOut",
-    autoplaySpeed: 500,
-    smartSpeed: 1000,
-    margin: 10,
-    responsiveClass: true,
-    responsive: {
-      0: {
-        items: 2,
-      },
-      767: {
-        items: 3,
-      },
-      991: {
-        items: 4,
-      },
-    },
-  });
-
-  $(".zoomable-image").on("dblclick", function () {
-    $(this).toggleClass("zoomed");
-  });
-});
-
-// useful tools
-
-$(".slider-7").owlCarousel({
-  slideBy: 1,
-  autoplay: true,
-  autoplayHoverPause: true,
-  loop: true,
-  animateOut: "fadeOut",
-  autoplaySpeed: 800,
-  smartSpeed: 500,
-  margin: 10,
-  responsiveClass: true,
-  responsive: {
-    0: {
-      items: 2,
-    },
-    767: {
-      items: 4,
-    },
-    991: {
-      items: 6,
-    },
-  },
-});
-
-// video bg
-
-// const video = document.getElementById("background-video");
-// video.playbackRate = 50;
-
-document.addEventListener("DOMContentLoaded", function () {
-  var video = document.getElementById("background-video");
-  // Try playing the video after a small delay
-  setTimeout(function () {
-    video.play();
-  }, 100);
+const video = document.getElementById("myVideo");
+video.addEventListener("ended", () => {
+  video.currentTime = 0;
+  video.play();
 });
 
 // aos liberey //
 
 AOS.init();
-
-var typing = new Typed(".text", {
-  strings: [
-    "Social Media Marketing",
-    "Website Development",
-    "Paid Marketing",
-    "Search Engine Optimization",
-    "Graphic Designing",
-    "Email Marketing",
-  ],
-  typeSpeed: 60, // Slightly increased for smoother effect
-  backSpeed: 30, // Slightly decreased for a more natural feel
-  startDelay: 300, // Small delay before starting
-  backDelay: 1000, // Pause before backspacing
-  smartBackspace: true, // Prevents unnecessary backspacing
-  loop: true,
-  showCursor: true, // Ensures cursor visibility
-  cursorChar: "|", // Custom cursor for better visibility
-});
-
-// portfolio //
-
-function showImage(imageSrc, modalImageId) {
-  document.getElementById(modalImageId).src = imageSrc;
-}
