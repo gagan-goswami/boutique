@@ -1,0 +1,204 @@
+/* media-Query 992 */
+
+@media (max-width: 991px) {
+  .hero-section .hero-image {
+    display: none;
+  }
+
+  .header-section .conatact-btn {
+    display: none;
+  }
+
+  .header-section .nav-link {
+    margin: 0;
+  }
+
+  .header-section .nav-link::after {
+    transform: scaleX(100%);
+    margin: 0px;
+    height: 1px;
+  }
+
+  .offcanvas-body {
+    padding: 10px 0;
+  }
+
+  .ppc-services-section .section-title p {
+    margin: 0px 0px;
+  }
+
+  .ppc-section .section-title h2,
+  .ppc-services-section .section-title h2,
+  .logo-desigine .section-title h2,
+  .branding-desigine .section-title h2,
+  .packaging-design .section-title h2,
+  .video-editing .section-title h2,
+  .company-profile .section-title h2,
+  .useful-tools .section-title h2 {
+    margin: 0px 0px;
+  }
+
+  .web-secvices-section .category-image img {
+    height: auto;
+  }
+
+  .Social-Media-Marketing .category-image img {
+    height: auto;
+  }
+}
+
+/* media-Query 768px */
+
+@media (max-width: 767px) {
+  .service-section .service-item {
+    height: 370px;
+  }
+}
+
+/* media-Query 575px */
+
+@media (max-width: 575px) {
+  .hire-section .hire-caption p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white);
+    margin-top: 15px;
+    padding: 0px 10px;
+  }
+
+  .portfolio-section .row {
+    flex-direction: column;
+  }
+
+  .testimonial-section .testimonials-item .detail span {
+    font-size: 10px;
+  }
+
+  .service-section .section-title h2,
+  .portfolio-section .section-title h2,
+  .testimonial-section .section-title h2,
+  .team-section .section-title h2,
+  .about-section .section-title h2,
+  .whychooseus-section .whychooseus-content h2,
+  .social-media-section .section-title h2,
+  .Social-Media-Marketing .category-content h2,
+  .Web-Development-section .section-title h2,
+  .web-secvices-section .category-content h2,
+  .ppc-section .section-title h2,
+  .ppc-services-section .section-title h2,
+  .our-approach-section .section-title h2,
+  .seo-services-section .section-title h2,
+  .seo-services-section .section-title h2 span,
+  .logo-desigine .section-title h2,
+  .branding-desigine .section-title h2,
+  .packaging-design .section-title h2,
+  .video-editing .section-title h2,
+  .company-profile .section-title h2,
+  .career-section .section-title h2,
+  .contact-section .section-title h2,
+  .contact-info .section-title h2,
+  .logo-desigine h2 span,
+  .branding-desigine h2 span,
+  .packaging-design h2 span,
+  .video-editing h2 span,
+  .company-profile h2 span,
+  .blog-section h2 span,
+  .blog-section .section-title h2,
+  .useful-tools .section-title h2,
+  .email-services .email-services-item h2,
+  .complete-blog .blog-header h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+
+  .hire-section .section-title h2 {
+    font-size: 30px;
+  }
+
+  .breadcrumb-section .breadcrumb-heading h1 {
+    font-size: 20px;
+  }
+
+  @media (max-width: 767px) {
+    .service-section .service-item {
+      height: 350px;
+    }
+  }
+}
+/* media-Query 425px */
+
+@media (max-width: 425px) {
+  .hire-section .section-title h2 {
+    font-size: 24px;
+  }
+
+  .contact-info .service-inner-item h2 {
+    font-size: 16px;
+  }
+
+  .seo-services-section .seo-services h3,
+  .service-section .service-item h2 {
+    font-size: 18px;
+  }
+}
+
+/* media-Query 375px */
+
+@media (max-width: 375px) {
+  .contact-info .service-inner-item a {
+    font-size: 13px;
+  }
+}
+
+/* testimonial-section */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .testimonial-section .testimonials-item .detail {
+    width: 300px;
+  }
+
+  .ppc-services-section .ppr-secvices {
+    padding: 20px 20px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 550px) {
+  .testimonial-section .testimonials-item .detail {
+    width: 250px;
+    padding-right: 30px;
+  }
+
+  .testimonial-section .testimonials-item .detail h3 {
+    font-size: 12px;
+  }
+}
+
+/* blog */
+
+@media (max-width: 768px) {
+  .blog-section .card-subtitle {
+    padding-right: 0px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-section .hero-caption h1 {
+    font-size: 26px;
+  }
+
+  .hero-section .hero-caption .text {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .our-work .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .our-work .container {
+    grid-template-columns: 1fr;
+  }
+}
