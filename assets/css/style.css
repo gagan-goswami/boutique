@@ -618,8 +618,8 @@ strong {
 }
 
 .product-slider .slider-4 .owl-nav button.owl-next {
-  height: 35px;
-  width: 35px;
+  height: 40px;
+  width: 40px;
   border: 1px;
   background-color: var(--primary-color);
   border-radius: 5px;
@@ -643,8 +643,8 @@ strong {
 }
 
 .product-slider .slider-4 .owl-nav button.owl-prev {
-  height: 35px;
-  width: 35px;
+  height: 40px;
+  width: 40px;
   border: 1px;
   background-color: var(--primary-color);
   border-radius: 5px;
