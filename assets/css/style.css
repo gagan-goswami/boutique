@@ -622,11 +622,10 @@ strong {
   width: 40px;
   border: 1px;
   background-color: var(--primary-color);
-  border-radius: 5px;
   font-size: 20px;
   color: var(--white);
   position: absolute;
-  right: -5px;
+  right: 0px;
   top: 35%;
   bottom: 0;
   display: flex;
@@ -647,8 +646,7 @@ strong {
   width: 40px;
   border: 1px;
   background-color: var(--primary-color);
-  border-radius: 5px;
-  left: -5px;
+  left: 0px;
   font-size: 20px;
   color: var(--white);
   position: absolute;
