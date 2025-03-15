@@ -182,7 +182,6 @@ $(".slider-5").owlCarousel({
   loop: true,
   autoplaySpeed: 500,
   smartSpeed: 500,
-  margin: 12,
   nav: true,
   dots: false,
   navText: [

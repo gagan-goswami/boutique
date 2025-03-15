@@ -1145,6 +1145,10 @@ body {
   text-align: center;
 }
 
+.footer-section .footer-item .social-icons ul li a {
+  color: var(--white);
+}
+
 .footer-section .footer-item .social-icons ul li::before {
   content: "";
   position: absolute;
