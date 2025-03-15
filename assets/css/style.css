@@ -1082,13 +1082,9 @@ body {
 }
 
 .footer-section .footer-item span {
-  color: var(--white);
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 20px;
-  background-color: var(--primary-color);
-  padding: 0px 10px;
-  border-radius: 2px;
   background: radial-gradient(
       ellipse farthest-corner at right bottom,
       #fedb37 0%,
