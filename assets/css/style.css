@@ -549,6 +549,7 @@ strong {
 
 .product-slider {
   padding: 45px 0px;
+  overflow: hidden;
 }
 
 .product-slider .section-title {
@@ -621,12 +622,12 @@ strong {
   width: 35px;
   border: 1px;
   background-color: var(--primary-color);
-  border-radius: 50%;
+  border-radius: 5px;
   font-size: 20px;
   color: var(--white);
   position: absolute;
   right: -15px;
-  top: 50%;
+  top: 35%;
   bottom: 0;
   display: flex;
   align-items: center;
@@ -646,12 +647,12 @@ strong {
   width: 35px;
   border: 1px;
   background-color: var(--primary-color);
-  border-radius: 50%;
+  border-radius: 5px;
   left: -15px;
   font-size: 20px;
   color: var(--white);
   position: absolute;
-  top: 50%;
+  top: 35%;
   bottom: 0;
   display: flex;
   align-items: center;
