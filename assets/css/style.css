@@ -127,12 +127,12 @@ body {
 }
 
 .header-section .menu-bar .nav-link {
-  margin: 0px 5px;
+  margin: 0px 10px;
   text-transform: capitalize;
-  color: #825d46;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   position: relative;
+  color: #9f7928;
 }
 
 .header-section .nav-link::after {
@@ -1115,7 +1115,23 @@ body {
 
 .footer-section .footer-item .social-icons ul li {
   margin-right: 10px;
-  background-color: var(--white);
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
+  color: var(--white);
   height: 40px;
   width: 40px;
   text-align: center;
@@ -1231,7 +1247,22 @@ body {
 }
 
 .footer-section .top-button .top {
-  background-color: var(--primary-color);
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
   height: 40px;
   width: 40px;
   border: none;
@@ -1279,7 +1310,22 @@ body {
 }
 
 .footer-section .call-button .call {
-  background-color: var(--primary-color);
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
   height: 40px;
   width: 40px;
   border: none;
