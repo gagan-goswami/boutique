@@ -182,7 +182,7 @@ $(".slider-5").owlCarousel({
   autoplayHoverPause: true,
   loop: true,
   animateOut: "fadeOut",
-  autoplaySpeed: 800,
+  autoplaySpeed: 500,
   smartSpeed: 500,
   margin: 12,
   nav: true,
