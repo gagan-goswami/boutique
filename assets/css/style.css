@@ -1,7 +1,7 @@
 /* ====== Colors ====== */
 :root {
   --primary-color: #e8c468;
-  --secondary-color: #f8c23a;
+  --secondary-color: #3e2640;
   --dark: #000000;
   --white: #ffffff;
   --grey: #516263;
@@ -71,11 +71,11 @@ strong {
 
 /* header-section-start */
 .top-bar {
-  background-color: #e8c468;
+  background-color: var(--secondary-color);
 }
 
 .top-bar p {
-  color: var(--dark);
+  color: var(--white);
   margin: 0;
   padding: 0;
   margin-top: 5px;
@@ -133,7 +133,7 @@ strong {
 .header-section .menu-bar .nav-link {
   margin: 0px 5px;
   text-transform: capitalize;
-  color: var(--dark);
+  color: #825d46;
   font-weight: 400;
   font-size: 16px;
   position: relative;
@@ -144,7 +144,7 @@ strong {
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: var(--dark);
+  background-color: var(--secondary-color);
   bottom: 0;
   left: 0;
   transform: scaleX(0);
@@ -158,7 +158,7 @@ strong {
 }
 
 .header-section .navbar-nav .nav-link.active {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .header-section .sibar-toggle {
@@ -183,7 +183,7 @@ strong {
 }
 
 .header-section .offcanvas-header {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 
 .header-section .navbar-toggler:focus {
@@ -449,10 +449,10 @@ strong {
 }
 
 .category-shop .section-title h2 {
-  font-family: Crimson Pro;
-  font-weight: 300;
-  line-height: 33px;
-  letter-spacing: 2.9px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 2.5px;
+  color: #825d46;
 }
 
 .category-shop .category-item {
@@ -486,10 +486,10 @@ strong {
 }
 
 .menswear-section .section-title h2 {
-  font-family: Crimson Pro;
-  font-weight: 300;
-  line-height: 33px;
-  letter-spacing: 2.9px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 2.5px;
+  color: #825d46;
 }
 
 .menswear-section .mens-item {
@@ -525,6 +525,8 @@ strong {
 
 /*===menswear-section-end=== */
 
+/* ===crafts-section-start=== */
+
 .crafts-section {
   padding: 45px 0px;
 }
@@ -535,11 +537,194 @@ strong {
 }
 
 .crafts-section .section-title h2 {
-  font-family: Crimson Pro;
-  font-weight: 300;
-  line-height: 33px;
-  letter-spacing: 2.9px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 2.5px;
+  color: #825d46;
 }
+
+/* ===crafts-section-start=== */
+
+/* ===product-section-start=== */
+
+.product-slider {
+  padding: 45px 0px;
+}
+
+.product-slider .section-title {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.product-slider .section-title h2 {
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 2.5px;
+  color: #825d46;
+}
+
+.product-slider .product-box {
+  margin-bottom: 25px;
+}
+
+.product-slider .product-box img {
+  width: 100%;
+}
+
+.product-slider .product-box .card {
+  position: relative;
+  display: inline-block;
+  border: none;
+}
+
+.product-slider .product-box .card .img-top {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  transition: ease-in-out 0.3s;
+}
+
+.product-slider .product-box .card:hover .img-top {
+  opacity: 1;
+  transition: ease-in-out 0.3s;
+}
+
+.product-slider .product-box .card .card-body {
+  padding: 10px 5px;
+  background-color: #f7f5f5;
+  border: none;
+  border-radius: 0px;
+  transition: ease-in-out 0.3s;
+}
+
+.product-slider .product-box .card .card-body p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--dark);
+  margin-bottom: 5px;
+}
+
+.product-slider .product-box .card .card-body a {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--grey);
+}
+
+.product-slider .slider-4 {
+  position: relative;
+}
+
+.product-slider .slider-4 .owl-nav button.owl-next {
+  height: 35px;
+  width: 35px;
+  border: 1px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  font-size: 20px;
+  color: var(--white);
+  position: absolute;
+  right: -15px;
+  top: 50%;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-slider .slider-4 .owl-nav button.owl-next i {
+  padding-left: 3px;
+}
+
+.product-slider .slider-4 .owl-nav button.owl-prev i {
+  padding-right: 3px;
+}
+
+.product-slider .slider-4 .owl-nav button.owl-prev {
+  height: 35px;
+  width: 35px;
+  border: 1px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  left: -15px;
+  font-size: 20px;
+  color: var(--white);
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-slider .owl-carousel .owl-dots.disabled,
+.product-slider .owl-carousel .owl-nav.disabled {
+  display: block;
+}
+
+.product-slider .Shop-btn {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-slider .Shop-btn a {
+  background-color: var(--primary-color);
+  border-radius: 0;
+  color: var(--dark);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* ===product-section-end=== */
+
+/* ===banner-section-start==== */
+
+.banner-section {
+  padding: 45px 0px;
+}
+
+/* ===banner-section-end=== */
+
+/* ===testimonial-section-start=== */
+
+/* ===spotlight-section-start=== */
+
+.spotlight-section {
+  padding: 45px 0px;
+}
+
+.spotlight-section .section-title {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.spotlight-section .section-title h2 {
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 2.5px;
+  color: #825d46;
+}
+
+.spotlight-section .spotlight-item {
+  margin-bottom: 25px;
+}
+
+.spotlight-section .spotlight-content {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.spotlight-section .spotlight-content span {
+  text-decoration: none;
+  color: var(--dark);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* ===spotlight-section-end=== */
 
 /* footer-section-start */
 

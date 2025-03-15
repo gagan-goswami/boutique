@@ -146,6 +146,36 @@ $(".slider-3").owlCarousel({
   },
 });
 
+$(".slider-4").owlCarousel({
+  slideBy: 1,
+  autoplay: true,
+  autoplayHoverPause: true,
+  loop: true,
+  animateOut: "fadeOut",
+  autoplaySpeed: 500,
+  smartSpeed: 500,
+  margin: 12,
+  nav: true,
+  dots: false,
+  navText: [
+    '<i class="fa fa-chevron-left"></i>',
+    '<i class="fa fa-chevron-right"></i>',
+  ],
+  navClass: ["owl-prev", "owl-next"],
+  responsiveClass: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    767: {
+      items: 2,
+    },
+    991: {
+      items: 4,
+    },
+  },
+});
+
 // cursor
 
 const video = document.getElementById("myVideo");
