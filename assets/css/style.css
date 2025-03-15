@@ -576,6 +576,7 @@ strong {
   position: relative;
   display: inline-block;
   border: none;
+  width: 100%;
 }
 
 .product-slider .product-box .card .img-top {
@@ -687,43 +688,59 @@ strong {
 
 /* ===banner-section-end=== */
 
-/* ===testimonial-section-start=== */
+/* ===whychoose-section-start=== */
 
-/* ===spotlight-section-start=== */
-
-.spotlight-section {
+.whychoose-section {
   padding: 45px 0px;
+  overflow: hidden;
 }
 
-.spotlight-section .section-title {
+.whychoose-section .section-title {
   text-align: center;
   margin-bottom: 45px;
 }
 
-.spotlight-section .section-title h2 {
+.whychoose-section .section-title h2 {
   font-weight: 500;
   line-height: 30px;
   letter-spacing: 2.5px;
   color: #825d46;
 }
 
-.spotlight-section .spotlight-item {
+.whychoose-section .section-title img {
+  height: 50px;
+}
+
+.whychoose-section .whychoose-item {
+  margin-bottom: 25px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 100%;
+}
+
+.whychoose-section .icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
   margin-bottom: 25px;
 }
 
-.spotlight-section .spotlight-content {
-  text-align: center;
-  margin-top: 10px;
-}
-
-.spotlight-section .spotlight-content span {
-  text-decoration: none;
+.whychoose-section .whychoose-item h3 {
+  font-size: 22px;
+  font-weight: 600;
   color: var(--dark);
-  font-size: 16px;
-  font-weight: 500;
 }
 
-/* ===spotlight-section-end=== */
+.whychoose-section .whychoose-item p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--grey);
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: justify;
+}
+
+/* ===whychoose-section-end=== */
 
 /* footer-section-start */
 
