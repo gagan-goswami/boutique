@@ -20,6 +20,10 @@ video {
   width: 100%;
 }
 
+strong {
+  font-weight: 600;
+}
+
 a {
   color: var(--primary-color);
   text-decoration: none;
@@ -36,7 +40,7 @@ a {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #3e2640;
+  background-color: var(--secondary-color);
   border-radius: 10px;
   border: 1px solid var(--primary-color);
 }
@@ -434,7 +438,7 @@ body {
 
 .category-shop {
   padding: 45px 0px;
-  background-color: #3e2640;
+  background-color: var(--secondary-color);
 }
 
 .category-shop .section-title {
@@ -493,7 +497,7 @@ body {
 
 .menswear-section {
   padding: 45px 0px;
-  background-color: #3e2640;
+  background-color: var(--secondary-color);
 }
 
 .menswear-section .section-title {
@@ -566,7 +570,7 @@ body {
 
 .crafts-section {
   padding: 45px 0px;
-  background-color: #3e2640;
+  background-color: var(--secondary-color);
 }
 
 .crafts-section .section-title {
@@ -610,7 +614,7 @@ body {
 .product-slider {
   padding: 45px 0px;
   overflow: hidden;
-  background-color: #3e2640;
+  background-color: var(--secondary-color);
 }
 
 .product-slider .section-title {
@@ -767,7 +771,7 @@ body {
 
 .banner-section {
   padding: 45px 0px;
-  background-color: #3e2640;
+  background-color: var(--secondary-color);
 }
 
 /* ===banner-section-end=== */
@@ -777,7 +781,7 @@ body {
 .whychoose-section {
   padding: 45px 0px;
   overflow: hidden;
-  background-color: #3e2640;
+  background-color: var(--secondary-color);
 }
 
 .whychoose-section .section-title {
@@ -848,7 +852,7 @@ body {
 
 .fit-deliver-section {
   padding: 45px 0px;
-  background-color: #3e2640;
+  background-color: var(--secondary-color);
 }
 
 .fit-deliver-section .section-title {
@@ -969,7 +973,7 @@ body {
 
 .testimonial-section .testimonial-item p i {
   font-size: 26px;
-  color: #9f7928;
+  color: var(--primary-color);
   margin: 0px 10px;
 }
 
@@ -1053,7 +1057,7 @@ body {
 
 .footer-section {
   z-index: 1;
-  background-color: #3e2640;
+  background-color: var(--secondary-color);
   padding: 45px 0px 0px 0px;
   overflow: hidden;
 }
@@ -1395,3 +1399,140 @@ body {
 }
 
 /* footer-section-end */
+
+/* breadcrumb-section-start */
+
+.breadcrumb-section {
+  padding: 50px 0px;
+  position: relative;
+  background: url(../images/testimonial-bg.jpg) center center repeat no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.breadcrumb-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #19151f44;
+  z-index: -1;
+}
+
+.breadcrumb-section .breadcrumb-heading h1 {
+  font-size: 30px;
+  color: var(--white);
+  font-weight: 600;
+  z-index: 1;
+}
+
+.breadcrumb-section .breadcrumb li {
+  font-size: 16px;
+  color: var(--white);
+  z-index: 1;
+}
+
+.breadcrumb-section .breadcrumb li i {
+  padding: 0px 10px;
+}
+
+.breadcrumb-section .breadcrumb li a {
+  font-size: 16px;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.breadcrumb-section .breadcrumb li a:hover {
+  color: var(--primary-color);
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: var(--white);
+}
+
+/* breadcrumb-section-end */
+
+/* about-section-start */
+
+.about-section {
+  padding: 45px 0px;
+  background-color: var(--secondary-color);
+  overflow: hidden;
+}
+
+.about-section .about-image img {
+  margin-bottom: 25px;
+}
+
+.about-section .section-title {
+  text-transform: capitalize;
+}
+
+.about-section .section-title span {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.about-section .section-title h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 10px;
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-section p {
+  font-size: 16px;
+  color: var(--white);
+  text-align: justify;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.about-section .our-mission h3,
+.about-section .our-vision h3 {
+  font-size: 20px;
+  font-weight: 700;
+
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* about-section-end */

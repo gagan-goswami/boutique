@@ -210,7 +210,3 @@ video.addEventListener("ended", () => {
   video.currentTime = 0;
   video.play();
 });
-
-// aos liberey //
-
-AOS.init();
