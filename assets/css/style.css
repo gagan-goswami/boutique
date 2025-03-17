@@ -1,7 +1,7 @@
 /* ====== Colors ====== */
 :root {
   --primary-color: #e8c468;
-  --secondary-color: #3e2640;
+  --secondary-color: #332340;
   --dark: #000000;
   --white: #ffffff;
   --grey: #516263;
@@ -104,8 +104,6 @@ body {
 
 .header-section .menu-bar {
   width: 100%;
-
-  border-bottom: 1px solid rgba(255, 255, 255, 0.096);
   background-color: var(--white);
   position: relative;
   z-index: 9999999;
@@ -1064,17 +1062,6 @@ body {
   padding: 10px;
 }
 
-.footer-section .footer-item img {
-  width: 150px;
-}
-
-.footer-section .footer-item p {
-  font-size: 14px;
-  color: var(--white);
-  font-weight: 300;
-  text-align: justify;
-}
-
 .footer-section .footer-item .social-icons ul {
   list-style: none;
   padding: 0;
@@ -1104,6 +1091,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: relative;
+  text-transform: uppercase;
 }
 
 .footer-section .footer-item .service-links i,
@@ -1166,7 +1154,7 @@ body {
 }
 
 .footer-section .footer-item .social-icons ul li:hover a {
-  color: var(--white);
+  color: var(--secondary-color);
   transition: 0.5s;
 }
 
