@@ -1535,4 +1535,70 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-/* about-section-end */
+/* ===about-section-end=== */
+
+/* ===.product-section-start=== */
+
+.product-section {
+  padding: 90px 0px;
+  background-color: var(--secondary-color);
+}
+
+.product-section .section-title {
+  margin-bottom: 45px;
+}
+
+.product-section .section-title h2 {
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 2.5px;
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.product-section.section-title h2 span {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.product-section .product-item {
+  box-shadow: #a5a5a50c 0px 3px 8px;
+  padding: 10px;
+}
+
+.product-section .product-item .product-content {
+  margin: 20px 0px;
+}
+
+.product-section .product-item .product-content h3 {
+  font-size: 18px;
+}
+
+.product-section .product-item .product-content p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.product-section .product-item .product-content .prize {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: var(--white);
+}
