@@ -222,3 +222,30 @@ function changeImage(element, imageUrl) {
 
   element.classList.add("active-thumbnail");
 }
+
+const fileInput = document.getElementById("fileInput");
+const imagePreview = document.getElementById("imagePreview");
+
+fileInput.addEventListener("change", function (event) {
+  const file = event.target.files[0];
+  if (file) {
+    const reader = new FileReader();
+    reader.onload = function (e) {
+      imagePreview.innerHTML = `<img src="${e.target.result}" alt="Clothing Image">`;
+    };
+    reader.readAsDataURL(file);
+  }
+});
+
+function resetImage() {
+  fileInput.value = "";
+  imagePreview.innerHTML = "<span>No Image</span>";
+}
+
+function uploadImage() {
+  if (!fileInput.files.length) {
+    alert("Please select an image first!");
+    return;
+  }
+  alert("Image uploaded successfully! (Demo - No server backend)");
+}

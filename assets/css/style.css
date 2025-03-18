@@ -1673,8 +1673,8 @@ body {
   font-weight: 500;
 }
 
-.blouse-section .blouse-item .blouse-content .btn-div button,
-.salwar-kameez-section .kameez-content .btn-div button {
+.blouse-section .blouse-item .blouse-content .btn-div input,
+.salwar-kameez-section .kameez-content .btn-div input {
   width: 100%;
   align-items: center;
   margin-top: 10px;
@@ -1689,6 +1689,7 @@ body {
 /* ===blouse-section-end=== */
 
 /*===== product-section-start ======*/
+
 .image-container {
   position: relative;
   width: 100%;
@@ -1718,3 +1719,45 @@ body {
   border: 2px solid black !important;
 }
 /*===== product-section-end ======*/
+
+.blouseproduct-section {
+  padding: 45px 0px;
+}
+
+.product-content h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.product-content span {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+
+.product-content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--dark);
+  margin: 10px 0px;
+}
+
+.upload-container input {
+  padding: 8px 10px;
+  background-color: var(--primary-color);
+  margin: 20px 0px;
+  color: var(--dark);
+}
+
+.upload-container {
+  margin-top: 20px;
+}
+
+.upload-container button {
+  background-color: var(--secondary-color);
+  padding: 10px 10px;
+  color: var(--white);
+  height: 45px;
+  border-radius: 0;
+  margin-left: 5px;
+}
