@@ -1593,18 +1593,21 @@ body {
 
 /* ===about-section-end=== */
 
-/* ===.product-section-start=== */
+/* ===blouse-section-start=== */
 
-.product-section {
+.blouse-section,
+.salwar-kameez-section {
   padding: 90px 0px;
   background-color: var(--secondary-color);
 }
 
-.product-section .section-title {
+.blouse-section .section-title,
+.salwar-kameez-section .section-title {
   margin-bottom: 45px;
 }
 
-.product-section .section-title h2 {
+.blouse-section .section-title h2,
+.salwar-kameez-section .section-title h2 {
   font-weight: 600;
   line-height: 30px;
   letter-spacing: 2.5px;
@@ -1629,32 +1632,89 @@ body {
   text-align: center;
 }
 
-.product-section.section-title h2 span {
+.blouse-section .section-title h2 span {
   font-size: 18px;
   font-weight: 600;
   color: var(--primary-color);
 }
 
-.product-section .product-item {
+.blouse-section .blouse-item,
+.salwar-kameez-section .kameez-item {
   box-shadow: #a5a5a50c 0px 3px 8px;
-  padding: 10px;
+  margin-bottom: 25px;
 }
 
-.product-section .product-item .product-content {
-  margin: 20px 0px;
+.blouse-section .blouse-item .blouse-content,
+.salwar-kameez-section .kameez-content {
+  background-color: var(--white);
+  padding: 15px;
 }
 
-.product-section .product-item .product-content h3 {
+.blouse-section .blouse-item .blouse-content h3,
+.salwar-kameez-section .kameez-content h3 {
   font-size: 18px;
+  color: var(--dark);
+  font-weight: 700;
 }
 
-.product-section .product-item .product-content p {
+.blouse-section .blouse-item .blouse-content .name,
+.salwar-kameez-section .kameez-content .name {
   font-size: 16px;
   margin-bottom: 5px;
+  color: var(--dark);
+  font-weight: 600;
 }
 
-.product-section .product-item .product-content .prize {
+.blouse-section .blouse-item .blouse-content p,
+.salwar-kameez-section .kameez-content p {
   font-size: 16px;
   margin-bottom: 5px;
+  color: var(--dark);
+  font-weight: 500;
+}
+
+.blouse-section .blouse-item .blouse-content .btn-div button,
+.salwar-kameez-section .kameez-content .btn-div button {
+  width: 100%;
+  align-items: center;
+  margin-top: 10px;
+  background-color: var(--secondary-color);
   color: var(--white);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 0px;
+  font-size: 16px;
 }
+
+/* ===blouse-section-end=== */
+
+/*===== product-section-start ======*/
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+.zoom-lens {
+  display: none;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border: 2px solid grey;
+  background-size: 1200px 1200px;
+  pointer-events: none;
+}
+.thumbnail-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: opacity 0.3s, border 0.3s;
+}
+.active-thumbnail {
+  opacity: 1 !important;
+  border: 2px solid black !important;
+}
+/*===== product-section-end ======*/

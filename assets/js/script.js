@@ -210,3 +210,15 @@ video.addEventListener("ended", () => {
   video.currentTime = 0;
   video.play();
 });
+
+// image zoom //
+
+function changeImage(element, imageUrl) {
+  document.getElementById("main-image").style.backgroundImage =
+    "url('" + imageUrl + "')";
+
+  let thumbnails = document.querySelectorAll(".thumbnail-img");
+  thumbnails.forEach((thumb) => thumb.classList.remove("active-thumbnail"));
+
+  element.classList.add("active-thumbnail");
+}
