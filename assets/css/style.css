@@ -159,6 +159,62 @@ body {
   color: var(--secondary-color);
 }
 
+.header-section .dropdown-menu {
+  background-color: var(--white);
+  color: var(--dark);
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 0;
+  padding: 0;
+  display: none;
+  border: 1px solid white;
+  overflow: hidden;
+  border: 0;
+  transition: 0.5s;
+  position: absolute;
+}
+
+.header-section .dropdown:hover .dropdown-menu {
+  display: block;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.header-section .sibar-toggle {
+  background-color: var(--white);
+  color: var(--primary-color);
+  border: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.header-section .dropdown-menu .dropdown-item {
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: all 0.2s;
+  z-index: 1;
+  background-color: var(--primary-color);
+}
+
+.header-section .dropdown-menu .dropdown-item:hover {
+  background-color: var(--secondary-color);
+  color: var(--white);
+}
+
+.header-section .dropdown i {
+  transition: 0.6s;
+}
+
+.header-section .dropdown:hover i {
+  transform: rotate(180deg);
+  transition: 0.6s;
+}
+
 .header-section .sibar-toggle {
   background-color: var(--white);
   color: var(--primary-color);
