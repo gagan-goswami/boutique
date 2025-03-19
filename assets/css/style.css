@@ -124,7 +124,7 @@ body {
 }
 
 .header-section .navbar-brand img {
-  width: 100px;
+  width: 125px;
   height: auto;
 }
 
@@ -177,7 +177,6 @@ body {
 .header-section .dropdown:hover .dropdown-menu {
   display: block;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  border-radius: 10px;
   transition: 0.5s;
 }
 
@@ -867,19 +866,18 @@ body {
 .service-section .service-cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 20px;
+  gap: 25px;
 }
 
 .service-section .service-card {
   background-color: var(--white);
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: #c9a2535e 0px 10px 20px, #c9a25356 0px 6px 6px;
   transition: transform 0.3s ease;
 }
 
 .service-section .service-card:hover {
-  transform: translateY(-10px);
+  transform: translateY(-5px);
 }
 
 .service-section .icon {
@@ -887,12 +885,13 @@ body {
   color: #ff6347;
   margin-bottom: 15px;
   background-color: var(--secondary-color);
-  height: 80px;
-  width: 80px;
+  height: 90px;
+  width: 90px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 
 .service-section .service-title {
@@ -908,7 +907,6 @@ body {
   color: var(--grey);
   margin-top: 10px;
   margin-bottom: 0;
-  text-align: justify;
 }
 /* ===service-section-end==== */
 
@@ -1758,10 +1756,19 @@ body {
   font-weight: 500;
 }
 
-.blouse-section .blouse-item .blouse-content .btn-div input,
-.salwar-kameez-section .kameez-content .btn-div input {
+.blouse-section .blouse-item .blouse-content .btn-div,
+.salwar-kameez-section .kameez-content .btn-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blouse-section .blouse-item .blouse-content .btn-div a,
+.salwar-kameez-section .kameez-content .btn-div a {
   width: 100%;
   align-items: center;
+  text-align: center;
   margin-top: 10px;
   background-color: var(--secondary-color);
   color: var(--white);
@@ -1772,3 +1779,154 @@ body {
 }
 
 /* ===blouse-section-end=== */
+
+/* ===boutiques-section-start=== */
+
+.boutiques-section {
+  padding: 45px 0px;
+  background-color: var(--secondary-color);
+}
+
+.boutiques-section .boutique-box {
+  box-shadow: #a5a5a50c 0px 3px 8px;
+  margin-bottom: 25px;
+}
+
+.boutiques-section .section-title {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.boutiques-section .section-title h2 {
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 2.5px;
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.boutiques-section .boutique-box {
+  background-color: var(--white);
+}
+
+.boutiques-section .section-title img {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.boutiques-section .content {
+  background-color: var(--white);
+  padding: 20px 10px;
+}
+
+.boutiques-section .content .Address {
+  font-size: 14px;
+  color: var(--grey);
+  margin-top: 15px;
+}
+
+.boutiques-section .content h3 {
+  font-size: 20px;
+  color: var(--dark);
+  font-weight: 600;
+  background-color: var(--white);
+}
+
+.boutiques-section .content P {
+  font-size: 14px;
+  color: var(--dark);
+  font-weight: 500;
+  background-color: var(--white);
+}
+
+.boutiques-section .button {
+  margin-top: 20px;
+}
+
+.boutiques-section .button a {
+  background-color: var(--secondary-color);
+  color: var(--white);
+  border: none;
+  padding: 10px;
+  border-radius: 0px;
+}
+
+/* ===boutiques-section-end=== */
+
+.prize-chart {
+  padding: 45px 0px;
+  background-color: var(--secondary-color);
+}
+
+.prize-chart .section-title {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.prize-chart .section-title h2 {
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.prize-chart .table-container {
+  overflow-x: auto;
+  color: var(--white);
+}
+
+.prize-chart .table-container h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #fcfcfc;
+  padding: 10px;
+}
+
+th {
+  background-color: #e2e2e2;
+  color: var(--dark);
+}
