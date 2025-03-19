@@ -218,31 +218,37 @@
                 <div class="col-md-6">
                     <div class="product-content">
                         <h2>Katori Blouse</h2>
-                        <span>₹450.00 – ₹1,050.00
-                        </span>
+                        <span>₹450.00 – ₹1,050.00</span>
                         <p>The Katori blouse is designed to flatter the natural curves of a woman’s bust. The cup
-                            portion of
-                            the blouse is set slightly higher than a traditional blouse, which creates a more elegant
-                            and
-                            flattering look. The blouse is also cut to be more comfortable and forgiving, so you can
-                            move
-                            and breathe freely. Get your Katori blouse tailor-made to your size today and experience the
-                            difference!</p>
+                            portion of the blouse is set slightly higher than a traditional blouse, which creates a more
+                            elegant and flattering look. The blouse is also cut to be more comfortable and forgiving, so
+                            you can move and breathe freely. Get your Katori blouse tailor-made to your size today and
+                            experience the difference!</p>
 
+
+                        <!-- Upload Section -->
                         <div class="upload-container">
-                            <h2>Upload your own design :</h2>
-                            <div class="image-preview" id="imagePreview">
-                                <span>No Image</span>
-                            </div>
+                            <h2>Upload Your Design:</h2>
+                            <div class="image-preview" id="imagePreview">No Image</div>
                             <input type="file" id="fileInput" accept="image/*">
-                            <button class="btn" onclick="uploadImage()">Upload</button>
-                            <button class="btn btn-reset" onclick="resetImage()">Reset</button>
+                            <button onclick="uploadAndSend()">Upload</button>
+                            <button onclick="resetImage()">Reset</button>
+                        </div>
+
+
+                        <!-- Quantity and Add to Cart -->
+                        <div class="quantity-container d-flex mb-3">
+                            <button class="btn btn-decrement" onclick="changeQuantity(-1)">-</button>
+                            <input type="text" id="quantity" value="1" min="1" class="quantity-input text-center">
+                            <button class="btn btn-increment" onclick="changeQuantity(1)">+</button>
+                            <button class="btn btn-add-to-cart" onclick="addToCart()">Add to Cart</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- blouseproduct-section-end -->
 
