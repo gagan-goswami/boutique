@@ -1725,6 +1725,7 @@ body {
 .salwar-kameez-section .kameez-item {
   box-shadow: #a5a5a50c 0px 3px 8px;
   margin-bottom: 25px;
+  height: 100%;
 }
 
 .blouse-section .blouse-item .blouse-content,
