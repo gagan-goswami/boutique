@@ -1682,7 +1682,8 @@ body {
 .salwar-kameez-section,
 .kurti-section,
 .lehenga-section,
-.dress-section {
+.dress-section,
+.alterations-section {
   padding: 90px 0px;
   background-color: var(--secondary-color);
 }
@@ -1691,7 +1692,8 @@ body {
 .salwar-kameez-section .section-title,
 .kurti-section .section-title,
 .lehenga-section .section-title,
-.dress-section .section-title {
+.dress-section .section-title,
+.alterations-section .section-title {
   margin-bottom: 45px;
 }
 
@@ -1699,7 +1701,8 @@ body {
 .salwar-kameez-section .section-title h2,
 .kurti-section .section-title h2,
 .lehenga-section .section-title h2,
-.dress-section .section-title h2 {
+.dress-section .section-title h2,
+.alterations-section .section-title h2 {
   font-weight: 600;
   letter-spacing: 2.5px;
   background: radial-gradient(
@@ -1733,14 +1736,16 @@ body {
 .salwar-kameez-section .kameez-item,
 .kurti-section .kurti-item,
 .lehenga-section .lehenga-item,
-.dress-section .dress-item {
+.dress-section .dress-item,
+.alterations-section .alterations-item {
   box-shadow: #a5a5a50c 0px 3px 8px;
   margin-bottom: 25px;
   height: 100%;
 }
 
 .blouse-section .blouse-item img,
-.dress-section .dress-item img {
+.dress-section .dress-item img,
+.alterations-section .alterations-item img {
   height: 300px;
   width: 100%;
   object-fit: cover;
@@ -1750,7 +1755,8 @@ body {
 .salwar-kameez-section .kameez-item .kameez-content,
 .kurti-section .kurti-item .kurti-content,
 .lehenga-section .lehenga-item .lehenga-content,
-.dress-section .dress-item .dress-content {
+.dress-section .dress-item .dress-content,
+.alterations-section .alterations-item .alterations-content {
   background-color: var(--white);
   padding: 15px;
 }
@@ -1759,7 +1765,8 @@ body {
 .salwar-kameez-section .kameez-content h3,
 .kurti-section .kurti-item .kurti-content h3,
 .lehenga-section .lehenga-item .lehenga-content h3,
-.dress-section .dress-item .dress-content h3 {
+.dress-section .dress-item .dress-content h3,
+.alterations-section .alterations-item .alterations-content h3 {
   font-size: 18px;
   color: var(--dark);
   font-weight: 700;
@@ -1769,7 +1776,8 @@ body {
 .salwar-kameez-section .kameez-content .name,
 .kurti-section .kurti-item .kurti-content .name,
 .lehenga-section .lehenga-item .lehenga-content .name,
-.dress-section .dress-item .dress-content .name {
+.dress-section .dress-item .dress-content .name,
+.alterations-section .alterations-item .alterations-content .name {
   font-size: 16px;
   margin-bottom: 5px;
   color: var(--dark);
@@ -1780,7 +1788,8 @@ body {
 .salwar-kameez-section .kameez-content p,
 .kurti-section .kurti-item .kurti-content p,
 .lehenga-section .lehenga-item .lehenga-content p,
-.dress-section .dress-item .dress-content p {
+.dress-section .dress-item .dress-content p,
+.alterations-section .alterations-item .alterations-content p {
   font-size: 16px;
   margin-bottom: 5px;
   color: var(--dark);
@@ -1791,7 +1800,8 @@ body {
 .salwar-kameez-section .kameez-content .btn-div,
 .kurti-section .kurti-item .kurti-content .btn-div,
 .lehenga-section .lehenga-item .lehenga-content .btn-div,
-.dress-section .dress-item .dress-content .btn-div {
+.dress-section .dress-item .dress-content .btn-div,
+.alterations-section .alterations-item .alterations-content .btn-div {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -1802,7 +1812,8 @@ body {
 .salwar-kameez-section .kameez-content .btn-div a,
 .kurti-section .kurti-item .kurti-content .btn-div a,
 .lehenga-section .lehenga-item .lehenga-content .btn-div a,
-.dress-section .dress-item .dress-content .btn-div a {
+.dress-section .dress-item .dress-content .btn-div a,
+.alterations-section .alterations-item .alterations-content .btn-div a {
   width: 100%;
   align-items: center;
   text-align: center;
