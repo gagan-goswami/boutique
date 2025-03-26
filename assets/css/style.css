@@ -863,17 +863,12 @@ body {
   margin-bottom: 10px;
 }
 
-.service-section .service-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 25px;
-}
-
 .service-section .service-card {
   background-color: var(--white);
   padding: 20px;
   box-shadow: #c9a2535e 0px 10px 20px, #c9a25356 0px 6px 6px;
   transition: transform 0.3s ease;
+  height: 100%;
 }
 
 .service-section .service-card:hover {
@@ -1413,89 +1408,35 @@ body {
   margin-bottom: 10px;
   text-decoration: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border: 1px solid var(--white);
 }
 
-.footer-section .top-button .top {
-  animation: bounce-in 2s ease infinite;
-}
-
-@keyframes bounce-in {
-  0% {
-    opacity: 0;
-    transform: scale(0.3);
-  }
-
-  50% {
-    opacity: 1;
-    transform: scale(1.05);
-  }
-
-  70% {
-    transform: scale(0.9);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
-
-.footer-section .call-button .top {
-  animation: bounce-in 2s ease infinite;
-}
-
-.footer-section .call-button .call {
-  background: radial-gradient(
-      ellipse farthest-corner at right bottom,
-      #fedb37 0%,
-      #fdb931 8%,
-      #9f7928 30%,
-      #8a6e2f 40%,
-      transparent 80%
-    ),
-    radial-gradient(
-      ellipse farthest-corner at left top,
-      #ffffff 0%,
-      #ffffac 8%,
-      #d1b464 25%,
-      #5d4a1f 62.5%,
-      #5d4a1f 100%
-    );
+.footer-section .instagram-button .instagram-chat {
+  background: linear-gradient(
+    45deg,
+    #f09433,
+    #e6683c,
+    #dc2743,
+    #cc2366,
+    #bc1888
+  );
   height: 40px;
   width: 40px;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   color: white;
   right: 1em;
-  bottom: 5em;
+  bottom: 4.2rem;
   position: fixed;
   font-size: 20px;
-  line-height: 38px;
+  line-height: 42px;
   text-align: center;
   z-index: 9999;
   margin-bottom: 10px;
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border: 1px solid var(--primary-color);
-}
-
-.footer-section .call-button .call:before {
-  position: absolute;
-  content: "";
-  animation: phone-wave 2s linear infinite;
-  inset: 0;
-  border-radius: 5px;
-}
-
-@keyframes phone-wave {
-  from {
-    box-shadow: 0 0 0 0 var(--white);
-  }
-
-  to {
-    box-shadow: 0 0 0 10px var(--primary-color);
-    opacity: 0;
-  }
 }
 
 .footer-section .whatsapp-button .whatsapp {
@@ -1503,10 +1444,10 @@ body {
   height: 40px;
   width: 40px;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   color: white;
   right: 1em;
-  bottom: 8em;
+  bottom: 6.2em;
   position: fixed;
   font-size: 20px;
   line-height: 38px;
@@ -1515,26 +1456,6 @@ body {
   margin-bottom: 10px;
   text-decoration: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border: 1px solid var(--primary-color);
-}
-
-.footer-section .whatsapp-button .whatsapp:before {
-  position: absolute;
-  content: "";
-  animation: phone-wave 2s linear infinite;
-  inset: 0;
-  border-radius: 5px;
-}
-
-@keyframes phone-wave {
-  from {
-    box-shadow: 0 0 0 0 var(--white);
-  }
-
-  to {
-    box-shadow: 0 0 0 10px var(--primary-color);
-    opacity: 0;
-  }
 }
 
 /* footer-section-end */
