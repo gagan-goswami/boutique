@@ -902,6 +902,7 @@ body {
   color: var(--grey);
   margin-top: 10px;
   margin-bottom: 0;
+  text-align: justify;
 }
 /* ===service-section-end==== */
 
