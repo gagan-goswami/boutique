@@ -140,6 +140,14 @@
   .service-section .service-item h2 {
     font-size: 18px;
   }
+
+  .service-section .service-title {
+    font-size: 16px;
+  }
+
+  .service-section .service-description {
+    font-size: 12px;
+  }
 }
 
 /* media-Query 375px */

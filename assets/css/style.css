@@ -865,7 +865,7 @@ body {
 
 .service-section .service-card {
   background-color: var(--white);
-  padding: 20px;
+  padding: 10px;
   box-shadow: #c9a2535e 0px 10px 20px, #c9a25356 0px 6px 6px;
   transition: transform 0.3s ease;
   height: 100%;
@@ -890,7 +890,7 @@ body {
 }
 
 .service-section .service-title {
-  font-size: 22px;
+  font-size: 20px;
   color: var(--dark);
   font-weight: 600;
   margin-bottom: 10px;
@@ -902,7 +902,6 @@ body {
   color: var(--grey);
   margin-top: 10px;
   margin-bottom: 0;
-  text-align: justify;
 }
 /* ===service-section-end==== */
 
