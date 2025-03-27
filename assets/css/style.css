@@ -1905,7 +1905,7 @@ body {
 .prize-chart .call-button .call {
   background-color: var(--primary-color);
   height: 40px;
-  width: 200px;
+  width: 150px;
   border: none;
   border-radius: 8px;
   color: var(--secondary-color);
