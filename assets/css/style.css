@@ -1871,6 +1871,7 @@ body {
 .prize-chart {
   padding: 45px 0px;
   background-color: var(--secondary-color);
+  position: relative;
 }
 
 .prize-chart .section-title {
@@ -1899,6 +1900,29 @@ body {
     );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.prize-chart .call-button .call {
+  background-color: var(--primary-color);
+  height: 40px;
+  width: 200px;
+  border: none;
+  border-radius: 8px;
+  color: var(--secondary-color);
+  font-weight: 600;
+  bottom: 16em;
+  right: -3em;
+  position: fixed;
+  font-size: 20px;
+  line-height: 38px;
+  text-align: center;
+  z-index: 9999;
+  margin-bottom: 10px;
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 1px solid var(--primary-color);
+  transform: rotate(90deg);
+  cursor: pointer;
 }
 
 .prize-chart .social-icons {
