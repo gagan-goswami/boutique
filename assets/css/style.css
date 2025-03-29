@@ -435,6 +435,7 @@ body {
   padding-bottom: 15px;
   font-size: 20px;
   text-transform: capitalize;
+  color: var(--primary-color);
 }
 
 .hero-section .slide-content h3::before {
