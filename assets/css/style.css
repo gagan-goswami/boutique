@@ -1244,6 +1244,7 @@ body {
   list-style: none;
   padding: 0;
   display: flex;
+  margin-top: 30px;
 }
 
 .footer-section .footer-item span {
