@@ -2146,19 +2146,19 @@ tr:hover {
 
 /* ====table-container-section-end=== */
 
-/* ====code-quotation-section-start==== */
+/* ====customised-ladies-wear-section-start==== */
 
-.code-quotation {
+.customised-ladies-wear {
   padding: 90px 0px;
   background-color: var(--secondary-color);
 }
 
-.code-quotation .section-title {
+.customised-ladies-wear .section-title {
   text-align: center;
   margin-bottom: 45px;
 }
 
-.code-quotation .section-title h2 {
+.customised-ladies-wear .section-title h2 {
   font-weight: 600;
   letter-spacing: 2.5px;
   background: radial-gradient(
@@ -2181,10 +2181,44 @@ tr:hover {
   -webkit-text-fill-color: transparent;
 }
 
-.code-quotation .picture-box,
-.code-quotation .picture-box img {
+.customised-ladies-wear .picture-box,
+.customised-ladies-wear .picture-box img {
   height: 100%;
   object-fit: cover;
 }
 
-/* ====code-quotation-section-end==== */
+/* ====customised-ladies-wear-section-end==== */
+
+.code-quotation {
+  padding: 90px 0px;
+  background-color: var(--secondary-color);
+}
+
+.code-quotation p {
+  font-size: 16px;
+  color: var(--white);
+}
+
+.code-quotation ul {
+  list-style: none;
+  padding: 0;
+}
+
+.code-quotation ul li {
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
+.code-quotation .book-btn {
+  margin-top: 40px;
+}
+
+.code-quotation .book-btn a {
+  padding: 10px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.5s;
+}
