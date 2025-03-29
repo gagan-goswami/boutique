@@ -1822,6 +1822,7 @@ body {
 
 .boutiques-section .boutique-box {
   background-color: var(--white);
+  height: 100%;
 }
 
 .boutiques-section .section-title img {
@@ -1841,7 +1842,7 @@ body {
 }
 
 .boutiques-section .content h3 {
-  font-size: 20px;
+  font-size: 18px;
   color: var(--dark);
   font-weight: 600;
   background-color: var(--white);
@@ -1933,7 +1934,7 @@ body {
 .prize-chart .table-container h3 {
   font-size: 24px;
   font-weight: 600;
-  color: var(--primary-color);
+  color: var(--dark);
   margin-bottom: 10px;
 }
 
@@ -2037,3 +2038,65 @@ th {
 }
 
 /* ====contact-section-end=== */
+
+.table-container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 650px;
+  margin: 20px auto;
+  padding: 25px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.table-container h3 {
+  text-align: center;
+  color: #9c27b0;
+  margin: 0 0 8px 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.address {
+  text-align: center;
+  color: #666;
+  margin-bottom: 25px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 25px;
+}
+
+th {
+  background-color: #e1bee7;
+  color: #4a148c;
+  padding: 14px;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid #ba68c8;
+}
+
+td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #e0e0e0;
+  color: #333;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f3e5f5;
+}
+
+.note {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.6;
+  padding: 0 10px;
+}
