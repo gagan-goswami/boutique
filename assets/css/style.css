@@ -1775,6 +1775,7 @@ body {
   padding: 10px 15px;
   border-radius: 0px;
   font-size: 16px;
+  border-radius: 5px;
 }
 
 /* ===blouse-section-end=== */
@@ -1864,7 +1865,7 @@ body {
   color: var(--white);
   border: none;
   padding: 10px;
-  border-radius: 0px;
+  border-radius: 5px;
 }
 
 /* ===boutiques-section-end=== */
