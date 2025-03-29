@@ -91,16 +91,16 @@ body {
 .top-bar .marquee p {
   display: inline-block;
   position: absolute;
-  right: -100%;
+  left: 100%;
   animation: marquee 4s linear infinite;
 }
 
 @keyframes marquee {
   from {
-    right: -100%;
+    left: 100%;
   }
   to {
-    right: 100%;
+    left: -100%;
   }
 }
 
