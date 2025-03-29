@@ -425,6 +425,30 @@ body {
 
 .hero-section .slide-content h2 {
   margin-bottom: 25px;
+  font-size: 30px;
+}
+
+.hero-section .slide-content h3 {
+  margin-bottom: 40px;
+  position: relative;
+  padding-bottom: 15px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.hero-section .slide-content h3::before {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 3px;
+  background-color: var(--primary-color);
+  bottom: -10px;
+  left: 0;
+}
+
+.hero-section .slide-content h3 i {
+  font-size: 18px;
+  margin-right: 5px;
 }
 
 .hero-section .owl-carousel .owl-nav button.owl-next {
