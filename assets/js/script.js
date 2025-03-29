@@ -67,7 +67,7 @@ $(document).ready(function () {
 
 $(".slider-1").owlCarousel({
   slideBy: 1,
-  autoplay: false,
+  autoplay: true,
   loop: true,
   autoplaySpeed: 500,
   smartSpeed: 500,
