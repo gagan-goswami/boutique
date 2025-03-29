@@ -440,7 +440,7 @@ body {
 .hero-section .slide-content h3::before {
   content: "";
   position: absolute;
-  width: 35%;
+  width: 40%;
   height: 3px;
   background-color: var(--primary-color);
   bottom: -10px;
