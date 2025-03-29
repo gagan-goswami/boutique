@@ -426,6 +426,7 @@ body {
 .hero-section .slide-content h2 {
   margin-bottom: 25px;
   font-size: 30px;
+  color: var(--white);
 }
 
 .hero-section .slide-content h3 {
@@ -439,7 +440,7 @@ body {
 .hero-section .slide-content h3::before {
   content: "";
   position: absolute;
-  width: 40%;
+  width: 35%;
   height: 3px;
   background-color: var(--primary-color);
   bottom: -10px;
@@ -449,6 +450,10 @@ body {
 .hero-section .slide-content h3 i {
   font-size: 14px;
   margin-right: 5px;
+  color: var(--primary-color);
+  border: 1px solid var(--white);
+  padding: 5px;
+  border-radius: 50%;
 }
 
 .hero-section .owl-carousel .owl-nav button.owl-next {
