@@ -2033,13 +2033,13 @@ th {
 
 .contact-info .service-inner-item {
   margin-bottom: 20px;
-  background-color: var(--white);
+  background-color: var(--secondary-color);
   padding: 20px 10px;
 }
 
 .contact-info .service-inner-item h2 {
   font-size: 20px;
-  color: var(--dark);
+  color: var(--primary-color);
   font-weight: 700;
 }
 
@@ -2047,7 +2047,7 @@ th {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background-color: var(--secondary-color);
+  background-color: var(--white);
   text-align: center;
   transition: 0.5s;
 }
@@ -2058,7 +2058,7 @@ th {
 }
 
 .contact-info .contact-item p {
-  color: var(--dark);
+  color: var(--white);
   font-weight: 400;
   font-size: 16px;
   margin: 0;
@@ -2066,13 +2066,13 @@ th {
 
 .contact-info .service-inner-item i {
   font-size: 24px;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   line-height: 50px;
   transition: 1s;
 }
 
 .contact-info .service-inner-item a {
-  color: var(--dark);
+  color: var(--white);
   text-decoration: none;
 }
 
