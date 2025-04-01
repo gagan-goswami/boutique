@@ -2387,6 +2387,7 @@ tr:hover {
 }
 
 /* Policy Section Styles */
+
 .policy-section {
   background-color: white;
   padding: 25px;
@@ -2404,13 +2405,55 @@ tr:hover {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  body {
-    padding: 15px;
-  }
-
   .policy-section {
     padding: 15px;
   }
 }
 
 /* ===pricacy-policy-section-end=== */
+
+/* ===order-section-start=== */
+
+.order-section {
+  padding: 45px 0px;
+  background-color: var(--secondary-color);
+}
+
+/* CTA Section */
+.order-section .cta-section {
+  text-align: center;
+  padding: 30px;
+  background-color: #f1f9fe;
+  margin-top: 30px;
+}
+
+.order-section .cta-section h2 {
+  color: var(--dark);
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.order-section .cta-section p {
+  color: var(--grey);
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.order-section .cta-section button {
+  border-radius: 8px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+}
+
+.order-section .cta-section button a {
+  color: var(--secondary-color);
+}
+
+/* ====order-section-end=== */
