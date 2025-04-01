@@ -69,10 +69,7 @@ $(".slider-1").owlCarousel({
   slideBy: 1,
   autoplay: true,
   loop: true,
-  autoplaySpeed: 500,
-  smartSpeed: 500,
   nav: false,
-  autoplayHoverPause: true,
   dot: true,
   responsive: {
     0: {
