@@ -2344,3 +2344,73 @@ tr:hover {
 }
 
 /* ====quality-section-end==== */
+
+/* ===pricacy-policy-section-start=== */
+
+.privacy-policy {
+  padding: 90px 0px;
+  background-color: var(--secondary-color);
+}
+
+.privacy-policy h2 {
+  color: var(--white);
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #eaeaea;
+}
+
+.privacy-policy h3 {
+  color: var(--dark);
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 25px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.privacy-policy p {
+  margin-bottom: 15px;
+}
+
+.privacy-policy ul {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.privacy-policy li {
+  margin-bottom: 8px;
+}
+
+.privacy-policy li a {
+  color: var(--dark);
+}
+
+/* Policy Section Styles */
+.policy-section {
+  background-color: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  background-color: #f1f9fe;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #3498db;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    padding: 15px;
+  }
+
+  .policy-section {
+    padding: 15px;
+  }
+}
+
+/* ===pricacy-policy-section-end=== */
