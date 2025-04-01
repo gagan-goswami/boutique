@@ -209,3 +209,77 @@ video.addEventListener("ended", () => {
   video.currentTime = 0;
   video.play();
 });
+
+// track order //
+
+// Toggle between tabs
+const tabs = document.querySelectorAll(".tab");
+tabs.forEach((tab) => {
+  tab.addEventListener("click", () => {
+    tabs.forEach((t) => t.classList.remove("active"));
+    tab.classList.add("active");
+
+    if (tab.textContent === "Track Order") {
+      document.getElementById("guestTrack").style.display = "block";
+      document.getElementById("ordersList").style.display = "none";
+    } else {
+      document.getElementById("guestTrack").style.display = "none";
+      document.getElementById("ordersList").style.display = "block";
+    }
+  });
+});
+
+// Tracking Modal Functions
+function openTrackingModal(orderId) {
+  const modal = document.getElementById("trackingModal");
+  document.getElementById("modalOrderId").textContent = orderId;
+
+  // Update modal content based on orderId if needed
+  // This is where you would fetch real order data in a production environment
+
+  modal.style.display = "flex";
+  document.body.style.overflow = "hidden";
+}
+
+function closeTrackingModal() {
+  const modal = document.getElementById("trackingModal");
+  modal.style.display = "none";
+  document.body.style.overflow = "auto";
+}
+
+// Close modal when clicking outside
+window.addEventListener("click", (event) => {
+  const modal = document.getElementById("trackingModal");
+  if (event.target === modal) {
+    closeTrackingModal();
+  }
+});
+
+// Login/Register button functionality
+document.getElementById("loginBtn").addEventListener("click", () => {
+  alert("Login functionality would go here");
+  // In a real implementation, this would redirect to login page or show login modal
+});
+
+document.getElementById("registerBtn").addEventListener("click", () => {
+  alert("Register functionality would go here");
+  // In a real implementation, this would redirect to register page
+});
+
+// Guest tracking form submission
+document.querySelector(".track-form button").addEventListener("click", () => {
+  const orderId = document.querySelector(
+    '.track-form input[type="text"]'
+  ).value;
+  const phone = document.querySelector(
+    '.track-form input[type="text"]:nth-child(2)'
+  ).value;
+
+  if (!orderId || !phone) {
+    alert("Please enter both Order ID and Phone Number");
+    return;
+  }
+
+  // In a real implementation, this would validate and fetch order details
+  alert(`Tracking order ${orderId} with phone ${phone}`);
+});
