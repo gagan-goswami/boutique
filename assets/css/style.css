@@ -665,49 +665,6 @@ body {
 
 /*===menswear-section-end=== */
 
-/* ===crafts-section-start=== */
-
-.crafts-section {
-  padding: 45px 0px;
-  background-color: var(--secondary-color);
-}
-
-.crafts-section .section-title {
-  text-align: center;
-  margin-bottom: 45px;
-}
-
-.crafts-section .section-title h2 {
-  font-weight: 600;
-  line-height: 30px;
-  letter-spacing: 2.5px;
-  background: radial-gradient(
-      ellipse farthest-corner at right bottom,
-      #fedb37 0%,
-      #fdb931 8%,
-      #9f7928 30%,
-      #8a6e2f 40%,
-      transparent 80%
-    ),
-    radial-gradient(
-      ellipse farthest-corner at left top,
-      #ffffff 0%,
-      #ffffac 8%,
-      #d1b464 25%,
-      #5d4a1f 62.5%,
-      #5d4a1f 100%
-    );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.crafts-section .section-title img {
-  height: 50px;
-  margin-bottom: 10px;
-}
-
-/* ===crafts-section-start=== */
-
 /* ===product-section-start=== */
 
 .product-slider {
