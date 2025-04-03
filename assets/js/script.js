@@ -209,23 +209,6 @@ video.addEventListener("ended", () => {
 
 // track order //
 
-// Toggle between tabs
-const tabs = document.querySelectorAll(".tab");
-tabs.forEach((tab) => {
-  tab.addEventListener("click", () => {
-    tabs.forEach((t) => t.classList.remove("active"));
-    tab.classList.add("active");
-
-    if (tab.textContent === "Track Order") {
-      document.getElementById("guestTrack").style.display = "block";
-      document.getElementById("ordersList").style.display = "none";
-    } else {
-      document.getElementById("guestTrack").style.display = "none";
-      document.getElementById("ordersList").style.display = "block";
-    }
-  });
-});
-
 // Tracking Modal Functions
 function openTrackingModal(orderId) {
   const modal = document.getElementById("trackingModal");
