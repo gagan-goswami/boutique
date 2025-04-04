@@ -1971,18 +1971,18 @@ th {
 
 /* ===contact-section-start=== */
 
-.contact-info {
-  padding: 90px 0px;
-  background-color: var(--secondary-color);
+.contact-section-page {
+  padding: 45px 0px;
+  background-color: var(--bg-color);
   overflow: hidden;
 }
 
-.contact-info .section-title {
+.contact-section-page .section-title {
   margin-bottom: 45px;
   text-align: center;
 }
 
-.contact-info .section-title h2 {
+.contact-section-page .section-title h2 {
   font-weight: 600;
   letter-spacing: 2.5px;
   background: radial-gradient(
@@ -2005,47 +2005,49 @@ th {
   -webkit-text-fill-color: transparent;
 }
 
-.contact-info .service-inner-item {
-  margin-bottom: 20px;
+.contact-section-page .contact-item {
   background-color: var(--secondary-color);
   padding: 20px 10px;
+  height: 100%;
+  text-align: center;
 }
 
-.contact-info .service-inner-item h2 {
+.contact-section-page .contact-item h2 {
   font-size: 20px;
   color: var(--primary-color);
   font-weight: 700;
 }
 
-.contact-info .service-inner-item .icon {
-  height: 50px;
-  width: 50px;
+.contact-section-page .contact-item .icon {
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
   background-color: var(--white);
   text-align: center;
   transition: 0.5s;
+  margin: 0 auto 20px auto;
 }
 
-.contact-info .service-inner-item:hover .icon {
+.contact-section-page .contact-item:hover .icon {
   transform: scale(1.2);
   transition: 0.5s;
 }
 
-.contact-info .contact-item p {
+.contact-section-page .contact-item p {
   color: var(--white);
   font-weight: 400;
   font-size: 16px;
   margin: 0;
 }
 
-.contact-info .service-inner-item i {
+.contact-section-page .contact-item i {
   font-size: 24px;
   color: var(--secondary-color);
-  line-height: 50px;
+  line-height: 60px;
   transition: 1s;
 }
 
-.contact-info .service-inner-item a {
+.contact-section-page .contact-item a {
   color: var(--white);
   text-decoration: none;
 }
@@ -3045,13 +3047,6 @@ tr:hover {
 .contact-method a {
   color: var(--white);
   text-decoration: none;
-}
-
-footer {
-  background-color: var(--secondary-color);
-  color: white;
-  padding: 40px 0;
-  margin-top: 50px;
 }
 
 .footer-content {
