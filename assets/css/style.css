@@ -1489,7 +1489,7 @@ body {
 .breadcrumb-section {
   padding: 50px 0px;
   position: relative;
-  background: url(../images/testimonial-bg.jpg) center center repeat no-repeat;
+  background: url(../images/breadcrumb-bg.jpg) center center repeat no-repeat;
   background-size: cover;
   background-position: center;
   z-index: 1;
@@ -1503,7 +1503,7 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: #19151f44;
+  background-color: #0d0b0f9f;
   z-index: -1;
 }
 
