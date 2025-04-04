@@ -419,7 +419,7 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: #0a0a0a65;
+  background-color: #0a0a0aaf;
   z-index: -1;
 }
 
